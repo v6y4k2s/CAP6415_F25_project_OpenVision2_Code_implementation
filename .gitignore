@@ -1,11 +1,4 @@
-# Exclude internal documentation files
-SESSION_LOG.md
-SUBMISSION_SUMMARY.md
-CLAUDE.md
-DEMO_VIDEO_GUIDE.md
-DEMO_RECORDING_GUIDE.md
-FASTER_TRAINING_GUIDE.md
-REPRODUCIBILITY_CHECKLIST.md
+
 
 # Python
 __pycache__/
