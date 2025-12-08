@@ -8,10 +8,15 @@ OpenVision 2 is an vision-language model that generates natural language caption
 It combines a pretrained Vision Transformer (ViT) with a lightweight transformer decoder for fast, single-GPU training.
 
 Overview
-Image captioning requires converting high-dimensional visual data into coherent sentences. OpenVision 2 solves this using a simple and effective encoder–decoder pipeline:
+Image captioning requires converting high-dimensional visual data into coherent sentences. 
+OpenVision 2 solves this using a simple and effective encoder–decoder pipeline:
+
 Visual Encoder — Frozen ViT-Base extracts 197 visual patch tokens (768-dim).
+
 Projection Layer — Learns to map visual features into the text embedding space (768 → 512).
+
 Causal Decoder — A 6-layer transformer (GPT-style) generates captions autoregressively using cross-attention.
+
 The model is trained on Flickr8k (8K images, 40K captions) with a causal language-modeling objective.
 
 Architecture
