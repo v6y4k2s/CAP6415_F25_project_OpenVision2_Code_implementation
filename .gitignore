@@ -36,9 +36,6 @@ wheels/
 .ipynb_checkpoints
 *.ipynb
 
-# PyTorch models (checkpoints are large)
-checkpoints/*.pt
-
 # IDEs
 .vscode/
 .idea/
